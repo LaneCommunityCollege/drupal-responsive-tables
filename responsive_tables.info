@@ -1,0 +1,6 @@
+name = Responsive Tables
+description = Attempts to make tables responsive (http://www.zurb.com/article/982/a-new-take-on-responsive-tables)
+core = 7.x
+files[] = responsive_tables.module
+files[] = responsive-tables.js
+files[] = responsive-tables.css

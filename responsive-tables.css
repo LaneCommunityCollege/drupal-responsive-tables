@@ -1,0 +1,16 @@
+/* Mobile */
+div.pinned { height:auto; width:34%;}
+div.scrollable { height:auto; width:auto;}
+table.rt_split { margin-bottom: 0; }
+
+.pinned { position: absolute; left: 0; top: 0; background: #fff; width: 35%; overflow: hidden; overflow-x: scroll; border-right: 1px solid #ccc; border-left: 1px solid #ccc; }
+.pinned table { border-right: none; border-left: none; width: 100%; }
+.pinned table th, .pinned table td { white-space: nowrap; }
+.pinned td:last-child { border-bottom: 0; }
+
+div.table-responsive-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-right: 1px solid #ccc; }
+div.table-responsive-wrapper div.scrollable table { /*margin-left: 35%;*/ }
+div.table-responsive-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; margin-left: 35%; }	
+
+table.rt_split td, table.rt_split th { position: relative; white-space: nowrap; overflow: hidden; }
+table.rt_split th:first-child, table.rt_split td:first-child, table.rt_split td:first-child, table.rt_split.pinned td { display: none; }

@@ -1,0 +1,7 @@
+<?php
+function responsive_tables_init(){
+    $path = drupal_get_path('module', 'responsive_tables');
+    drupal_add_js($path . '/responsive-tables.js');
+    drupal_add_css($path.'/responsive-tables.css');
+}
+?>
